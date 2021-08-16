@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+.navClose button{
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.navClose h6{
+  margin-top: 0;
+}
+.navOpen{
+  display: inline;
+  
+}
+.navOpen h2,h4{
+  padding-left: 5px;
+  cursor: pointer;
+}
+.grey{
+  color:rgba(255,255,255,.8);
+}
+.grey:hover{
+  color: white;
+}
+.searchBox{
+  display: flex;
+}
+.searchBox button{
+  background: #4e73df;
+  border:none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.topbar-divider{
+  width: 0;
+  border-right: 2px solid #e3e6f0;
+  height: calc(4.375rem - 2rem);
+  margin: auto 1rem;
+}
+.middle{
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  /* width: 1200px; */
+}
+.card{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border-radius: 5px;
+  color: #dddfeb!important;
+  background: white;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+#one{
+  border-left: 3px solid #4e73df;
+}
+.card h3{
+  color:#5a5c69!important;
+}
+#one h4{
+  color:#4e73df!important;
+}
+.bg{
+  background: #cfd0d8;
+}
+#two{
+  border-left: 3px solid #1cc88a!important;
+}
+#three{
+  border-left: 3px solid #36b9cc!important;
+}
+#four{
+  border-left: 3px solid #f6c23e!important;
+}
+#two h4{
+  color:#1cc88a!important;
+}
+#three h4{
+  color:#36b9cc!important;
+}
+#four h4{
+  color:#f6c23e!important;
+}
+#mobileSearch{
+  background: none;
+  border:none;
+}
+@media screen and (min-width:1000px) {
+  .middle{
+    width:1250px;
+  }
+}
+@media screen and (max-width:450px){
+  #windowSideBar{
+    display: none;
+  }
+  #mobileButton{
+    justify-content: center;
+  }
+  h1{
+    font-size: small;
+  }
+  .middle{
+    justify-content: space-around;
+    padding: 0;
+  }
+}
